@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, url_for, flash, redirect
-from pyrsistent import get_in
 from recipe_scraper import get_basic_info, get_ingredients, get_instructions
 app = Flask(__name__)
 
