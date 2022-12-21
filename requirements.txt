@@ -1,1 +1,3 @@
-pip install Flask gunicorn recipe-scrapers
+pip install Flask 
+pip install gunicorn 
+pip install recipe-scrapers
